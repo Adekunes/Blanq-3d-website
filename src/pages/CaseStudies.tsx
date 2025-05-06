@@ -26,36 +26,36 @@ const caseStudies = [
     title: 'Textile Business Insight',
     description: 'Bridging the digital gap between Canadian and Bangladeshi markets for a textile manufacturer.',
     images: [
-      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?auto=format&fit=crop&q=80'
+      '/images/qsincorporation_compressed_img/img1.jpg',
+      '/images/qsincorporation_compressed_img/img2.jpg',
+      '/images/qsincorporation_compressed_img/img3.jpg',
+      '/images/qsincorporation_compressed_img/img4.jpg'
     ],
     stats: [
       { label: 'Market Expansion', value: '2 Countries' },
-      { label: 'Online Orders', value: '+180%' },
-      { label: 'Customer Satisfaction', value: '96%' }
+      { label: 'Projected Online Orders', value: '+180%' },
+      { label: 'Expected Customer Satisfaction', value: '96%' }
     ],
-    challenge: 'Complex international market coordination',
-    solution: 'Integrated e-commerce platform with multi-currency support'
+    challenge: 'Underperforming site impacting customer acquisition',
+    solution: 'Developed a modern, user-focused presentation website to enhance online visibility and customer engagement'
   },
   {
-    id: 'clothing-store',
-    title: 'Revitalized Clothing Store',
-    description: 'Transforming a traditional clothing store into a modern, omnichannel retail experience.',
+    id: 'art-gallery',
+    title: 'Revitalized Art Gallery',
+    description: 'Modernizing an art gallery’s online presence to enhance customer engagement and streamline browsing experience.',
     images: [
-      'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80'
+      '/images/adosdanne_compressed_img/img1.jpg',
+      '/images/adosdanne_compressed_img/img2.jpg',
+      '/images/adosdanne_compressed_img/img3.jpg',
+      '/images/adosdanne_compressed_img/img4.jpg'
     ],
     stats: [
-      { label: 'Revenue Growth', value: '+150%' },
+      { label: 'Projected Sales Growth', value: '+150%' },
       { label: 'Online Presence', value: '24/7' },
-      { label: 'Customer Base', value: '10K+' }
+      { label: 'Anticipated Customer Base', value: '10K+' }
     ],
-    challenge: 'Traditional retail struggling in digital age',
-    solution: 'Omnichannel platform with inventory synchronization'
+    challenge: 'Building an online presence and reaching potential buyers as a new artist.',
+    solution: 'Custom website and social media integration to showcase artwork and engage with a broader audience.'
   }
 ];
 

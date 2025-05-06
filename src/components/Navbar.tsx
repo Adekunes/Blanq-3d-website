@@ -70,7 +70,7 @@ export default function Navbar() {
           </motion.div>
           
           <div className="hidden md:flex">
-            <div className="flex space-x-3 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2">
+            <div className="flex space-x-3 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2.5">
               {navItems.map((item) => (
                 <motion.div
                   key={item.path}

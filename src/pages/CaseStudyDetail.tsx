@@ -47,57 +47,59 @@ const caseStudies = {
       'Created localized user experiences',
       'Developed automated reporting system'
     ],
-    solution: 'We created an integrated e-commerce platform with multi-currency support, real-time inventory synchronization across locations, and automated currency conversion. The system handles complex international shipping calculations and customs documentation.',
+    solution: 'We created a responsive presentation website with mobile-first design, fast load speeds, and clear service messaging. The site was optimized for local SEO, built to convert visitors into leads, and designed for future integration of contact or booking tools.',
     results: [
       { metric: 'Market Reach', before: '1 country', after: '2 countries' },
-      { metric: 'Order Processing', before: '2-3 days', after: 'Same day' },
-      { metric: 'Inventory Accuracy', before: '85%', after: '99.9%' },
-      { metric: 'International Sales', before: '$0', after: '$2M/year' }
+      { metric: 'Customer Engagement (Time On Site)', before: '30s', after: '120s' },
+      { metric: 'Website Performance', before: '5s load time', after: '2.5s load time' },
+      { metric: 'Customer Retention Rate', before: '30%', after: '55%' }
+
     ],
     testimonial: {
-      quote: "This platform has transformed our business from a local operation to an international success. The seamless integration between markets has exceeded our expectations.",
-      author: "Sarah Rahman",
-      role: "CEO, Global Textile Solutions"
+      quote: "We are beyond thrilled with the website Blanq delivered! Not only was it completed faster than we expected, but the quality is a huge step up from our previous site. The design is sleek, modern, and so much more user-friendly. It's made a noticeable difference in how our customers engage with us, and we couldn't be happier with the results!",
+      author: "Anonymous",
+      role: "QS Incorporation"
     },
     images: [
-      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?auto=format&fit=crop&q=80'
+      '/images/qsincorporation_compressed_img/img1.jpg',
+      '/images/qsincorporation_compressed_img/img2.jpg',
+      '/images/qsincorporation_compressed_img/img3.jpg',
+      '/images/qsincorporation_compressed_img/img4.jpg'
     ],
-    technologies: ['Next.js', 'Shopify', 'PostgreSQL', 'Redis', 'Docker']
+    technologies: ['React', 'Tanstack Query', 'React Router', 'Google Analytics']
   },
-  'clothing-store': {
-    title: 'Revitalized Clothing Store',
-    subtitle: 'Omnichannel Retail Revolution',
-    description: 'Transforming a traditional clothing store into a modern, omnichannel retail experience.',
-    challenge: 'A traditional brick-and-mortar clothing retailer was struggling to compete in the digital age, with declining foot traffic and no online presence to capture the growing e-commerce market.',
+  'art-gallery': {
+    title: 'Revitalized Art Gallery',
+    subtitle: 'Online Presence and Customer Engagement',
+    description: 'Modernizing an art gallery’s online presence to enhance customer engagement and streamline browsing experience.',
+    challenge: 'Building an online presence and reaching potential buyers as a new artist.',
     approach: [
-      'Developed omnichannel strategy',
-      'Created integrated inventory system',
-      'Implemented virtual try-on technology',
-      'Designed mobile shopping experience',
-      'Built loyalty program integration'
+      'Developed a visually appealing portfolio website',
+      'Created a strong online presence through social media and web',
+      'Integrated contact form for art inquiries and commissions',
+      'Designed mobile-friendly gallery for easy browsing',
+      'Set up a system for promoting upcoming exhibitions and art shows'
     ],
-    solution: 'We developed an omnichannel platform that seamlessly connects in-store and online shopping experiences. The solution includes real-time inventory synchronization, a virtual try-on system using AR technology, and an integrated loyalty program.',
+    solution: 'We developed a modern, user-focused presentation website to enhance online visibility and customer engagement',
     results: [
-      { metric: 'Total Revenue', before: '$1M/year', after: '$2.5M/year' },
-      { metric: 'Customer Base', before: '2,000', after: '10,000+' },
-      { metric: 'Average Order Value', before: '$85', after: '$150' },
-      { metric: 'Customer Retention', before: '40%', after: '75%' }
-    ],
+      { metric: 'Artwork Sales', before: '5 pieces', after: '20+ pieces' },
+      { metric: 'Online Engagement', before: '100 followers', after: '500+ followers' },
+      { metric: 'Client Inquiries', before: '5/month', after: '20+/month' },
+      { metric: 'Commission Requests', before: '0', after: '5+ commissions' }
+    ]
+    ,
     testimonial: {
-      quote: "The transformation has brought our traditional store into the modern era. Our customers love the seamless experience between online and in-store shopping.",
-      author: "Michael Chen",
-      role: "Owner, Urban Style Collective"
+      quote: "Took some time but just want to stay thank you for my website ! Efficient communication and they make it seem like its a team effort",
+      author: "Cassandra A. Gomez",
+      role: "Owner, A D'os D'anne"
     },
     images: [
-      'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80'
+      '/images/adosdanne_compressed_img/img1.jpg',
+      '/images/adosdanne_compressed_img/img2.jpg',
+      '/images/adosdanne_compressed_img/img3.jpg',
+      '/images/adosdanne_compressed_img/img4.jpg'
     ],
-    technologies: ['React Native', 'Shopify Plus', 'AR Kit', 'Stripe', 'Firebase']
+    technologies: ['HTML', 'CSS', 'Javascript', 'Google Analytics']
   }
 };
 
