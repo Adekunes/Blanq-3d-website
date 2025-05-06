@@ -14,9 +14,9 @@ const caseStudies = [
       'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80'
     ],
     stats: [
-      { label: 'Increase in Leads', value: '200%' },
-      { label: 'Website Traffic', value: '+350%' },
-      { label: 'Conversion Rate', value: '12%' }
+      { label: 'Estimated Increase in Leads', value: 'Up to 200%' },
+      { label: 'Projected Website Traffic Growth', value: '+350%' },
+      { label: 'Expected Conversion Rate', value: '12%' }
     ],
     challenge: 'Outdated online presence limiting customer reach',
     solution: 'Modern website with booking system and SEO optimization'

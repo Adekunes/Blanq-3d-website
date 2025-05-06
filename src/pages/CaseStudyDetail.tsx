@@ -5,27 +5,27 @@ import { ArrowLeft, Check, ArrowUpRight } from 'lucide-react';
 const caseStudies = {
   'montreal-plumber': {
     title: 'Montreal Plumber Transformation',
-    subtitle: 'Digital Transformation Success Story',
+    subtitle: 'Digital Growth Strategy Showcase',
     description: 'A complete digital transformation for a local plumbing business, resulting in 200% increase in online leads.',
     challenge: 'The client faced significant challenges with an outdated online presence that was limiting their customer reach. Their existing website was not mobile-friendly and lacked essential features for customer engagement.',
     approach: [
       'Conducted comprehensive market analysis',
       'Developed mobile-first website strategy',
-      'Implemented advanced booking system',
+      'Designed conversion-focused homepage layout',
       'Created targeted SEO campaign',
       'Established performance monitoring'
     ],
     solution: 'We developed a modern, user-friendly website with an integrated booking system and comprehensive SEO optimization. The new platform includes real-time availability checking and automated appointment confirmations.',
     results: [
       { metric: 'Lead Generation', before: '50/month', after: '150/month' },
-      { metric: 'Website Traffic', before: '1,000/month', after: '3,500/month' },
+      { metric: 'Website Traffic', before: '1k/month', after: '3,5k/month' },
       { metric: 'Conversion Rate', before: '3%', after: '12%' },
       { metric: 'Mobile Bookings', before: '20%', after: '65%' }
     ],
     testimonial: {
-      quote: "The transformation of our digital presence has revolutionized how we do business. We're now booking more jobs than ever before.",
-      author: "Jean Martin",
-      role: "Owner, Montreal Premium Plumbing"
+      quote: "We partnered with Montreal Premium Plumbing to explore digital strategies aimed at enhancing their online presence, increasing lead generation, and improving customer engagement. Though the project was not fully executed, our plan included a mobile-first website redesign, targeted SEO improvements, and strategies for higher conversion rates.",
+      author: "Project Overview",
+      role: "Montreal Plumbing"
     },
     images: [
       'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80',
@@ -33,7 +33,7 @@ const caseStudies = {
       'https://images.unsplash.com/photo-1580256081112-e49377338b7f?auto=format&fit=crop&q=80',
       'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80'
     ],
-    technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Google Analytics']
+    technologies: ['React', 'Tanstack Query', 'React Router', 'Google Analytics']
   },
   'textile-business': {
     title: 'Textile Business Insight',
@@ -157,7 +157,7 @@ export default function CaseStudyDetail() {
             </div>
 
             <div>
-              <h2 className="text-xl sm:text-2xl font-light mb-4 sm:mb-6">Key Results</h2>
+              <h2 className="text-xl sm:text-2xl font-light mb-4 sm:mb-6">Key Results <span className="text-xs text-gray-400">(Projections based on industry benchmarks and similar projects.)</span></h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                 {study.results.map((result, index) => (
                   <div key={index} className="bg-white/5 p-4 sm:p-6">
