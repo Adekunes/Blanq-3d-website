@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  overflow-x: hidden;
+}
+
+body {
+  @apply antialiased text-gray-900 bg-black overflow-x-hidden;
+  font-feature-settings: "salt" 1, "ss01" 1, "ss02" 1;
+  max-width: 100vw;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 0% 50%, rgba(255, 255, 255, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 100% 50%, rgba(255, 255, 255, 0.02) 0%, transparent 50%);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+::selection {
+  @apply bg-white text-black;
+}
+
+/* Smooth canvas transitions */
+canvas {
+  @apply transition-opacity duration-300;
+}
+
+/* Loading screen animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Glass effect enhancements */
+.glass-effect {
+  @apply backdrop-blur-xl bg-white/5 border border-white/10;
+}
+
+/* Enhanced transitions */
+.transition-all {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full hover:bg-white/30 transition-colors;
+}
+
+/* Loading screen specific styles */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate 20s linear infinite;
+}
+
+/* Container class to prevent overflow */
+.container-safe {
+  @apply max-w-full overflow-x-hidden;
+}
+
+/* Case studies specific styles */
+.case-study-image {
+  @apply relative overflow-hidden;
+  transform: perspective(1000px);
+}
+
+.case-study-image::after {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 transition-opacity duration-300;
+}
+
+.case-study-image:hover::after {
+  @apply opacity-100;
+}
+
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  @apply relative;
+}
+
+@screen md {
+  .case-study-grid {
+    gap: 1.5rem;
+  }
+}
